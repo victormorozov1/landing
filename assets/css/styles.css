@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	list-style: none;
+	/*text-align: center;*/
 }
 
 html{
@@ -27,6 +28,7 @@ nav > * {
 	width: 70%;
 	left: 15%;
 	align-items: center;
+	text-align: justify;
 }
 
 .adaptable-cont > *{
@@ -39,7 +41,7 @@ nav > * {
 }
 
 .adaptable-cont{
-	text-align: center;
+	text-align: justify;
 }
 
 #flex-container{
@@ -228,7 +230,7 @@ header nav li:last-child{
 }
 
 #curling-center{
-	background-color: #f7f7f7;
+	background-color: white;
 }
 
 #fisht .grid li{

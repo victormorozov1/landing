@@ -1,0 +1,23 @@
+.statistics{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.statistics > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statistics img{
+    width: 50px;
+    height: 50px;
+    color: #414a4f;
+}
+
+.statistics svg{
+    fill: #414a4f;
+}
