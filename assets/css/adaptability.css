@@ -23,16 +23,15 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 96%;
-        left: 2%
+        width: 100%;
     }
 
     .adaptable-cont > div > img{
-        padding: 35px;
+        padding-top: 10px;
     }
 
     .adaptable-cont > *{
-        width: 80%;
+        width: 100%;
     }
 
     nav {

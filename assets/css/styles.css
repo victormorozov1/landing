@@ -37,6 +37,10 @@ nav > * {
 	padding-left: 15px;
 }
 
+.adaptable-cont{
+	text-align: center;
+}
+
 #flex-container{
 	display: flex;
 	flex-direction: row;
