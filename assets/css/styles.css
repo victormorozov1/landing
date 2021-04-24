@@ -11,6 +11,10 @@ html{
 	scroll-behavior: smooth;
 }
 
+nav > li > a {
+	font-size: 13px;
+}
+
 a{
 	text-decoration: none;
 	color: inherit;
@@ -47,21 +51,7 @@ section{
 	padding: 125px 100px;
 }
 
-@media (max-width: 1000px){
 
-	section{
-		padding: 100px 50px;
-	}
-
-}
-
-@media (max-width: 600px){
-
-	section{
-		padding: 80px 30px;
-	}
-
-}
 
 section h3.title{
 	color: #414a4f;
@@ -99,6 +89,10 @@ header{
 	padding: 35px 100px 0;
 }
 
+header nav{
+	flex-direction: row;
+}
+
 header h2{
 	font-family: 'Quicksand', sans-serif;
 }
@@ -107,7 +101,7 @@ header nav{
 	display: flex;
 }
 
-header nav li{
+header nav a{
 	margin: 0 15px;
 }
 
@@ -121,22 +115,6 @@ header nav li:last-child{
 
 
 
-@media (max-width: 1000px){
-	header{
-		padding: 20px 50px;
-	}
-}
-
-
-@media (max-width: 700px){
-	header{
-		flex-direction: column;		
-	}
-
-	header h2{
-		margin-bottom: 15px;
-	}
-}
 
 #main-section{
 	position: relative;
@@ -173,24 +151,6 @@ header nav li:last-child{
 	padding: 20px 46px;
 }
 
-@media (max-width: 800px){
-
-	#main-section{
-		min-height: 600px;
-	}
-
-	#main-section h1{
-		font-size: 48px;
-	}
-
-	#main-section h3{
-		font-size: 24px;
-	}
-
-	#main-section a.btn{
-		padding: 15px 40px;
-	}
-}
 
 #about-olymp .grid li{
 	padding: 20px;
@@ -216,14 +176,7 @@ header nav li:last-child{
 }
 
 
-@media (max-width: 1000px){
 
-	#about-olymp .grid li.small,
-	#about-olymp .grid li.large{
-		flex-basis: 100%;
-	}
-
-}
 
 #fisht{
 	background-color: #f7f7f7;
@@ -251,24 +204,3 @@ header nav li:last-child{
     margin: 0;
 }
 
-@media (max-width: 1000px){
-
-	#fisht .grid li{
-		flex-basis: 70%;
-		margin-bottom: 65px;
-	}
-
-	#fisht .grid li:last-child{
-		margin-bottom: 0;
-	}
-
-}
-
-
-@media (max-width: 600px){
-
-	#fisht .grid li{
-		flex-basis: 100%;
-	}
-
-}

@@ -1,0 +1,86 @@
+@media (max-width: 1500px){
+    #logo{
+        width: 80px;
+    }
+}
+
+@media (max-width: 1000px){
+    section{
+        padding: 100px 50px;
+    }
+
+    header{
+        padding: 20px 50px;
+    }
+
+    header nav{
+        flex-direction: column;
+    }
+
+    #logo{
+        max-width: 60px;
+    }
+
+    #about-olymp .grid li.small,
+    #about-olymp .grid li.large{
+        flex-basis: 100%;
+    }
+
+    #fisht .grid li{
+        flex-basis: 70%;
+        margin-bottom: 65px;
+    }
+
+    #fisht .grid li:last-child{
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 600px){
+
+    section{
+        padding: 80px 30px;
+    }
+
+    #fisht .grid li{
+        flex-basis: 100%;
+    }
+
+    #logo{
+        width: 40px;
+    }
+
+}
+
+
+@media (max-width: 700px){
+
+
+    header h2{
+        margin-bottom: 50px;
+    }
+
+    /*header > img{*/
+    /*    max-width: 60px;*/
+    /*}*/
+}
+
+
+@media (max-width: 800px){
+
+    #main-section{
+        min-height: 600px;
+    }
+
+    #main-section h1{
+        font-size: 48px;
+    }
+
+    #main-section h3{
+        font-size: 24px;
+    }
+
+    #main-section a.btn{
+        padding: 15px 40px;
+    }
+}
