@@ -24,14 +24,17 @@ nav > * {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	width: 70%;
+	left: 15%;
 }
 
 .adaptable-cont > *{
 	display: block;
+	width: 50%;
 }
 
-.adaptable-cont > p{
-	max-width: 500px;
+.adaptable-cont > div > img{
+	padding-left: 15px;
 }
 
 #flex-container{
@@ -87,13 +90,13 @@ section h3.title{
 	text-align: center;
 }
 
-section p{
-	max-width: 800px;
-	text-align: center;
-	margin-bottom: 35px;
-	padding: 0 20px;
-	line-height: 2;
-}
+/*section p{*/
+/*	max-width: 800px;*/
+/*	text-align: center;*/
+/*	margin-bottom: 35px;*/
+/*	padding: 0 20px;*/
+/*	line-height: 2;*/
+/*}*/
 
 ul.grid{
 	width: 100%;
@@ -199,11 +202,9 @@ header nav li:last-child{
 	flex-basis: 60%;
 }
 
-
-
-
 #fisht{
 	background-color: #f7f7f7;
+	width: 100%;
 }
 
 #fisht .grid li{
