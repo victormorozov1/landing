@@ -81,7 +81,7 @@ section{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
+	width: 100%;
 	padding: 125px 100px;
 }
 
@@ -209,7 +209,26 @@ header nav li:last-child{
 
 #fisht{
 	background-color: #f7f7f7;
-	width: 100%;
+}
+
+#iceberg{
+	background-color: white;
+}
+
+#adler{
+	background-color: #f7f7f7;
+}
+
+#puck{
+	background-color: white;
+}
+
+#grand-ice-palace{
+	background-color: #f7f7f7;
+}
+
+#curling-center{
+	background-color: #f7f7f7;
 }
 
 #fisht .grid li{
