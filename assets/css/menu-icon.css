@@ -1,0 +1,23 @@
+.menu-icon {
+    display: none;
+    opacity: 0.9;
+    transition: all 0.1s;
+    margin: 20px;
+}
+
+.menu-icon:hover {
+    opacity: 1;
+}
+
+.menu-icon > * {
+    width: 34px;
+    height: 6px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+    display: block;
+    border-radius: 3px;
+
+    transform-origin: right;
+}
+

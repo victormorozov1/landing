@@ -4,7 +4,33 @@
     }
 }
 
+@media (min-width: 1000px) {
+    .menu-icon{
+        display: none;
+    }
+
+    .nav{
+        display: inline-block;
+    }
+
+    .nav > *{
+        display: inline-block;
+    }
+}
+
 @media (max-width: 1000px){
+    nav {
+        display: none;
+    }
+
+    nav > *{
+        display: none;
+    }
+
+    .menu-icon{
+        display: inline-block;
+    }
+
     section{
         padding: 100px 50px;
     }
@@ -18,7 +44,7 @@
     }
 
     #logo{
-        max-width: 60px;
+        display: none;
     }
 
     #about-olymp .grid li.small,

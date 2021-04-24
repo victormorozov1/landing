@@ -11,8 +11,19 @@ html{
 	scroll-behavior: smooth;
 }
 
-nav > li > a {
+nav > * {
 	font-size: 13px;
+}
+
+#logo{
+	max-width: 100px;
+	display: inline-block;
+}
+
+#flex-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 a{
@@ -82,9 +93,7 @@ header{
 	left: 0;
 	z-index: 10;
 	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	display: block;
 	color: #fff;
 	padding: 35px 100px 0;
 }
