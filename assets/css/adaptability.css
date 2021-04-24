@@ -19,6 +19,16 @@
 }
 
 @media (max-width: 1000px){
+    .adaptable-cont{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .adaptable-cont > *{
+        width:600px;
+    }
+
     nav {
         display: none;
     }

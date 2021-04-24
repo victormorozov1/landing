@@ -20,10 +20,25 @@ nav > * {
 	display: inline-block;
 }
 
+.adaptable-cont{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.adaptable-cont > *{
+	display: block;
+}
+
+.adaptable-cont > p{
+	max-width: 500px;
+}
+
 #flex-container{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
 }
 
 a{
