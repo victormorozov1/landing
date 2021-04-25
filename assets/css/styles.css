@@ -175,30 +175,6 @@ header nav li:last-child{
 	padding: 20px 46px;
 }
 
-
-#about-olymp .grid li{
-	padding: 20px;
-
-	border-radius: 3px;
-
-	background-clip: content-box;
-	background-size: cover;
-	background-position: center;
-	background-color: inherit;
-}
-
-#about-olymp .grid li.pict{
-	height: 350px;
-}
-
-#about-olymp .grid li.small{
-	flex-basis: 40%;
-}
-
-#about-olymp .grid li.large{
-	flex-basis: 60%;
-}
-
 #fisht{
 	background-color: #f7f7f7;
 }
