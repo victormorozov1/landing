@@ -6,6 +6,7 @@ $(document).ready(function(){
         $("#" + id).append(statistics_node.clone());
     }
 
+
     var image = document.getElementsByClassName('thumbnail');
     new simpleParallax(image);
     let statistics_node = $('.statistics').clone();
@@ -15,6 +16,8 @@ $(document).ready(function(){
     set_info("puck", "35", "7", "4.8")
     set_info("grand-ice-palace", "300", "12", "4.8")
     set_info("curling-center", "30", "3", "4.7")
+
+    ScrollReveal().reveal('.smooth-appearance', { delay: 80 });
 
     $(".menu-icon").click(function (){
         $(this).css("display", "none");
