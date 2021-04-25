@@ -71,17 +71,19 @@ $(document).ready(function(){
             $(".menu-icon").css("display", "block");
             $("#main-section>h1").css("display", "block");
             // $(".background-image").css("filter", "none");
-            blur_animation(-1);
+            blur_animation(-5);
         }
     });
 
     $("nav").mouseover(function(){
-        // $(".background-image").css("filter", "blur(5px)");
-        blur_animation(1);
+        if ($("#logo").css("display") !== "none"){
+            blur_animation(1);
+        }
     });
 
     $("nav").mouseout(function(){
-        // $(".background-image").css("filter", "none")
-        blur_animation(-1);
+        if ($("#logo").css("display") !== "none"){
+            blur_animation(-1);
+        }
     });
 });
