@@ -2,7 +2,7 @@ $(document).ready(function(){
     function set_info(id, cost, people, mark){
         $(statistics_node).children("#cost").children("p").text(cost + " млн. $");
         $(statistics_node).children("#people").children("p").text(people + " тыс.");
-        $(statistics_node).children("#mark").children("p").text(mark + " средняя оценка");
+        $(statistics_node).children("#mark").children("p").text(mark + " отзывы");
         $("#" + id).append(statistics_node.clone());
     }
 
