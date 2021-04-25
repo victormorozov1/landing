@@ -36,10 +36,14 @@
 
     nav {
         display: none;
+        font-size: 18px;
     }
 
     nav > *{
         display: none;
+        padding: 10px;
+        margin: 5px;
+        font-weight: bold;
     }
 
     .menu-icon{

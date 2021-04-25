@@ -22,12 +22,15 @@ $(document).ready(function(){
 
         nav.css("display", "inline-block");
         nav.children().css("display", "block");
+
+        $("#main-section>h1").css("display", "none");
     });
 
     $("nav").click(function(){
         if ($("#logo").css("display") === "none"){
             $(this).css("display", "none");
             $(".menu-icon").css("display", "block");
+            $("#main-section>h1").css("display", "block");
         }
     });
 
