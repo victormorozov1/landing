@@ -20,7 +20,7 @@ $(document).ready(function(){
         $(this).css("display", "none");
         var nav = $("nav");
 
-        nav.css("display", "inline-block");
+        nav.css("display", "flex");
         nav.children().css("display", "block");
 
         $("#main-section>h1").css("display", "none");
