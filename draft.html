@@ -1,14 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="draft.css">
+    <meta charset="utf-8">
+    <title>Размытие фона</title>
+    <style>
+        body::before {
+            content: '';
+            position: fixed; /* Фиксируем на одном месте */
+            left: 0; right: 0; /* Вся ширин */
+            top: 0; bottom: 0; /* Вся высота */
+            z-index: -1; /* Фон ниже текста */
+            /* Параметры фона */
+            background: url(assets/img/fisht.jpg) center / cover no-repeat;
+            filter: blur(5px); /* Размытие */
+        }
+        body {
+            color: #fff; /* Цвет текста */
+        }
+    </style>
 </head>
 <body>
-    <div class=".menu-icon">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-    </div>
+<p>Суспензия, если рассматривать процессы в рамках
+    специальной теории относительности, отражает электронный кварк.</p>
 </body>
 </html>
