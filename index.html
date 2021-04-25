@@ -3,7 +3,8 @@
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
-	<script src="https://unpkg.com/scrollreveal"></script>
+<!--	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>-->
+	<script src="assets/js/wow.min.js"></script>
 	<script src="assets/js/main.js"></script>
 
 
@@ -20,6 +21,9 @@
     <link rel="stylesheet" href="assets/css/menu-icon.css">
 	<link rel="stylesheet" href="assets/css/adaptability.css">
 	<link rel="stylesheet" href="assets/css/statistics.css">
+
+	<link rel="stylesheet" href="assets/css/animate.css">
+<!--	<link rel="stylesheet" href="assets/css/site.css">-->
 </head>
 
 <body>
@@ -53,7 +57,7 @@
 	</section>
 
 
-	<section id="about-olymp">
+	<section id="about-olymp" class="wow bounceInUp">
 		<h3 class="title smooth-appearance">Олимпиада 2014 года</h3>
 		<p class="smooth-appearance" style="text-align: center; margin-bottom: 15px">XXII Олимпийские зимние игры в Сочи — это первая в России зимняя олимпиада и вторые в стране олимпийские игры после XXII Летней Олимпиады в Москве 1980 г. Игры прошли в период с 7 по 23 февраля 2014 года.</p>
 		<hr class="smooth-appearance">
@@ -69,7 +73,7 @@
 		</div>
 	</section>
 
-	<section id="fisht">
+	<section id="fisht" class="wow bounceInUp">
 		<h3 class="title smooth-appearance">Стадион Фишт</h3>
 		<hr class="smooth-appearance">
 		<div class="adaptable-cont smooth-appearance">
@@ -123,7 +127,7 @@
 
 	</section>
 
-	<section id="iceberg">
+	<section id="iceberg"  class="wow bounceInUp">
 		<h3 class="title smooth-appearance">Ледовый дворец спорта Айсберг</h3>
 		<hr class="smooth-appearance">
 		<div class="adaptable-cont smooth-appearance">
@@ -132,7 +136,7 @@
 		</div>
 	</section>
 
-	<section id="adler">
+	<section id="adler" class="wow bounceInUp">
 		<h3 class="title smooth-appearance">Адлер арена</h3>
 		<hr class="smooth-appearance">
 		<div class="adaptable-cont smooth-appearance">
@@ -141,7 +145,7 @@
 		</div>
 	</section>
 
-	<section id="puck">
+	<section id="puck" class="wow bounceInUp">
 		<h3 class="title smooth-appearance">Ледовая арена шайба</h3>
 		<hr class="smooth-appearance">
 		<div class="adaptable-cont smooth-appearance">
@@ -150,7 +154,7 @@
 		</div>
 	</section>
 
-	<section id="grand-ice-palace">
+	<section id="grand-ice-palace" class="wow bounceInUp">
 		<h3 class="title smooth-appearance">Большой ледовый дворец</h3>
 		<hr class="smooth-appearance">
 		<div class="adaptable-cont smooth-appearance">
@@ -159,7 +163,7 @@
 		</div>
 	</section>
 
-	<section id="curling-center">
+	<section id="curling-center" class="wow bounceInUp">
 		<h3 class="title smooth-appearance">Кёрлинговый центр «Ледяной куб»</h3>
 		<hr class="smooth-appearance">
 		<div class="adaptable-cont smooth-appearance">
@@ -167,6 +171,10 @@
 			<p>Кёрлинговый центр «Ледяной куб» — стадион, который находится в Олимпийском парке в Сочи. Вместимость — 3 000 мест. Строительство завершилось в 2013 году, тогда же здесь прошли тестовые соревнования международного уровня.</p>
 		</div>
 	</section>
+
+	<script>
+		new WOW().init();
+	</script>
 
 </body>
 

@@ -34,12 +34,16 @@ $(document).ready(function(){
             $("#logo").css("filter", "blur(" + blur + "px)");
         }, 20);
 
+
+
 // в то время как timePassed идёт от 0 до 2000
 // left изменяет значение от 0px до 400px
         function draw(timePassed) {
             train.style.left = timePassed / 5 + 'px';
         }
     }
+
+    new WOW().init();
 
     var image = document.getElementsByClassName('thumbnail');
     new simpleParallax(image);
@@ -50,8 +54,6 @@ $(document).ready(function(){
     set_info("puck", "35", "7", "4.8")
     set_info("grand-ice-palace", "300", "12", "4.8")
     set_info("curling-center", "30", "3", "4.7")
-
-    ScrollReveal().reveal('.smooth-appearance', { delay: 80 });
 
     $(".menu-icon").click(function (){
         $(this).css("display", "none");
